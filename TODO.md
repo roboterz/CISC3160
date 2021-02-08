@@ -1,11 +1,8 @@
-### Solar System Exploration, 1950s – 1960s
+### CISC3160 TEST PROJECT
 
-- [ ] Mercury
-- [x] Venus
-- [x] Earth (Orbit/Moon)
-- [x] Mars
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
-- [ ] Neptune
-- [ ] Comet Haley
+- [x] Create Repositories
+- [x] Add README File
+- [x] Add CHANGELOG FIle
+- [x] Add TODO File
+- [ ] Choose Project Type
+- [ ] Add Code Files
