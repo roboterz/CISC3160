@@ -4,7 +4,7 @@ def artist(e):
   return e[0]
   #return Artist
   
-with open('regional-global-daily-latest.csv') as csv_file:
+with open('regional-global-weekly.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     line_count = 0
     artistList = []
