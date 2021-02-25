@@ -1,21 +1,24 @@
 import csv
 
-def myFunc(e):
+def artist(e):
   return e[0]
+  #return Artist
   
 with open('regional-global-daily-latest.csv') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     line_count = 0
     artistList = []
+    strArtist =''
     #load the date from csv files to list
     for row in csv_reader:
         if line_count == 0 or line_count ==1:
             line_count += 1
         else:
-            line_count += 1
-            artistList.append([f'{row[2]}',f'{row[3]}'])
+            #add space after artist for print out
+            strArtist = row[2] + ' '*(30-len(row[2]))
+            artistList.append([strArtist, f'{row[3]}'])
 #sort the list
-artistList.sort(key=myFunc)
+artistList.sort(key=artist)
 
 #use new list to save the unique name list
 newList = []
@@ -39,4 +42,4 @@ for i in range(len(artistList)):
 
 print('Artist\t\t\tAverage Streams')
 for i in range(len(newList)):
-    print(f'{newList[i][0]}\t\t\t{newList[i][1]}')
+    print(f'{newList[i][0]}\t{newList[i][1]}')
