@@ -37,6 +37,6 @@ for i in range(len(artistList)):
             newList.append(artistList[i])
             index += 1
 
-print('Artist\t\t\tStreams')
+print('Artist\t\t\tAverage Streams')
 for i in range(len(newList)):
     print(f'{newList[i][0]}\t\t\t{newList[i][1]}')
