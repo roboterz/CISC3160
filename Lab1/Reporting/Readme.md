@@ -5,3 +5,4 @@ get a unique list of Artist names and count average streams per song for a singl
 Data available from SpotifyCharts.com
 
 ![Output](https://github.com/roboterz/CISC3160/blob/main/Lab1/Reporting/output.png)
+
