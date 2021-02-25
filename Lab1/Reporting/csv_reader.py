@@ -15,7 +15,7 @@ with open('regional-global-daily-latest.csv') as csv_file:
             line_count += 1
         else:
             #add space after artist for print out
-            strArtist = row[2] + ' '*(30-len(row[2]))
+            strArtist = row[2] + ' '*(31-len(row[2]))
             artistList.append([strArtist, f'{row[3]}'])
 #sort the list
 artistList.sort(key=artist)
