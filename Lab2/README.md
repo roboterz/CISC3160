@@ -23,7 +23,11 @@ Goal: Identify the input mathematical formula, calculate and get the result.
 # Reflection
 
 The language I designed is as described above. It is a language that can understand mathematical formulas and calculate the results.
+
 I use flex to design a mini programing language.
+
 flex includes lex and yacc. I have discussed them in class, so I am familiar with them. No other tools have been touched. 
+
 I am using the windows version, and after installing flex, I also need to install Dev-C++. Since the Windows version is relatively easy to install, there are no major problems.
+
 But to figure out how to use lex and yacc, I spent a lot of time to figure it out. Find information on the Internet, watch tutorials, and watch how others use it on YouTube. All resources basically come from the Internet.
