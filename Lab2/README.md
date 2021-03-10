@@ -10,6 +10,6 @@ Goal: Identify the input mathematical formula, calculate and get the result.
 ## Template：
 
 (1+3)*5/4 
-|>5
+->5
 2+6/3+9*5 
-|>49
+->49
