@@ -9,15 +9,7 @@ Goal: Identify the input mathematical formula, calculate and get the result.
 
 ## Template
 
-(1+3)*5/4 
+(1+3)/*5//4 
 5
-2+6/3+9*5 
+2+6//3+9/*5 
 49
-L 5 5 5 5 5 
-> 25
-Q 4 4 4 4 4
-> 20
-R 0 4 4 4 0
-> 12
-T
-> 57
