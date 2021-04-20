@@ -53,3 +53,14 @@ Add other components on the form：
       ...
 ```
 
+CreateButton is my custom function, on [line 155](https://github.com/roboterz/CISC3160/blob/main/Lab4/Calculator/Calculator.java)
+```
+  // create button
+   private void createButton(int index, String Name, int left, int top, int weight, int high ){
+
+```
+Create an index based on the characters on the calculator button.
+/********
+   index: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18  19 20 21 22 23 24 25 26 27
+  symbol: 0 1 2 3 4 5 6 7 8 9 .  +- /  *  -  +  \/ %  1/x =  <- CE C  MC MR MS M+ M-
+********/
