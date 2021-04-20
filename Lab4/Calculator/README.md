@@ -21,7 +21,7 @@ To create a framework with 330 wide and 400 height, the code is as follows: ([Ca
 ```
 
 Add other components on the form：
-···
+```
       // display text label
       label.setBounds(10,10,295,65);
       label.setFont(new Font("Arial", 0, 30));
