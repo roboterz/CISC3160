@@ -106,3 +106,5 @@ In my [assembly code for calculating the BMI](https://github.com/roboterz/CISC31
 	li $v0, 10
 	syscall
 ```
+
+From one week of study, I learned that the difficulty of assembly is not the bitterness of assembly syntax, but the importance of computer principles. Without the support of computer principles, assembly is a useless toy. Only by learning various computer principles and mathematical theories can you use assembly language well. Even if it is just a simple division, it is necessary to understand the corresponding mathematical operation principle to realize it. It is also necessary to understand the computing unit and the functions that can be used in the machine in order to use the assembly to exert the strength of the machine. Attach [MIPS IV Instruction Set](https://github.com/roboterz/CISC3160/blob/main/Lab4/MIPS%20IV%20Instruction%20Set.pdf)
