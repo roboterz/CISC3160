@@ -74,6 +74,35 @@ There are also system resource calls, which call different resources according t
 * 2 is Print floating-point number
 * 4 is print null-terminated character string
 * 5 is read integer number from user
-* .
-* .
+* ...
+* ...
 * 10 is stop program from running.
+
+
+In my [assembly code for calculating the BMI](https://github.com/roboterz/CISC3160/blob/main/Lab4/Lab4_4_float.asm), All system calls are implemented by changing the value of $v0.
+
+```
+# print out the message to get the weight
+	li $v0, 4		# set the syscall as print string
+	la $a0, msg_weight	# the message to be print
+	syscall			# print
+	
+#read the weight from the input
+	li $v0, 5		# set the syscall as read int
+	syscall			# read
+	mtc1 $v0, $f0		# let f0 as the weight
+	cvt.s.w $f0, $f0	# covert to float
+	
+	...
+	...
+	...
+	
+# print out the number of BMI
+	li $v0, 2		# set the syscall as print float
+	mov.s $f12, $f2		# load the result ready to print
+	syscall			# print
+
+# Exit
+	li $v0, 10
+	syscall
+```
