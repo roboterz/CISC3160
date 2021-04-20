@@ -48,7 +48,7 @@ Even simple multiplication and division cannot be done in one sentence. For exam
 	mflo $t2		# Quotient
 	mfhi $t3		# remainder
 	
-	#Calculate the first decimal place
+#Calculate the first decimal place
 	li $t0, 100		# t0 as temp
 	mult $t3, $t0		# remainder * 10
 	mflo, $t0		# save the result on t0
@@ -60,7 +60,7 @@ As you can see from the code, I used the remainder to be multiplied by 10 and th
 Later, the central processing unit had a floating-point unit. As the machine is different, we need to modify the corresponding assembly statement. Example of division using floating point operations: [Calculate BMI code line32-36](https://github.com/roboterz/CISC3160/blob/main/Lab4/Lab4_4_float.asm)
 
 ```
-	# Calculate BMI
+# Calculate BMI
 	lwc1 $f2, conversion_factor	# conversion factor is 703
 	mul.s $f0, $f0, $f2	# f0 = weight * 703
 	mul.s $f1, $f1, $f1	# f1 = height * height
