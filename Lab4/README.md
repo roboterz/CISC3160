@@ -10,14 +10,16 @@
 First compare a piece of assembly and C language code, let x increase by 1 in a loop until x equals 10:
 
 C Language:
+```
 main{
 	int x=1;
 	while (x < 10 ){
 		x++;
 	}
 }
-
+```
 MIPS:
+```
 data
 	X: .word 1
 .text
@@ -29,3 +31,4 @@ Loop:
 	addi $t1, $t1, 1	    # X++
 	j Loop			          # go back to label "Loop"
 Exit:
+```
