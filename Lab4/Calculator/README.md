@@ -68,3 +68,5 @@ Create an index based on the characters on the calculator button.
   symbol: 0 1 2 3 4 5 6 7 8 9 .  +- /  *  -  +  \/ %  1/x =  <- CE C  MC MR MS M+ M-
 ```
 The last 4 parameters are the left boundary coordinates, the upper boundary coordinates, width and height.
+
+With swing, creating an interface becomes easy and easy. The rest is to write the functions and algorithms of the calculator. [For more code here](https://github.com/roboterz/CISC3160/blob/main/Lab4/Calculator/Calculator.java)
