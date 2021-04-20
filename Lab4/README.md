@@ -32,3 +32,6 @@ Loop:
 	j Loop			  # go back to label "Loop"
 Exit:
 ```
+
+It can be seen that assembly language has no structured syntax, loops and conditional branches. Loops and conditional branches can only be realized by jumping to the sticky note. The structured syntax of the C language is very different.
+
