@@ -3,7 +3,7 @@
 
   In the most recent course, assembler is used to write programs. I have never used assembly language, but I have always been interested in it. Take this opportunity to study how to write assembly programs. Assembler is a language that directly manipulates machine code, and its working method is very different from the usual high-level programming languages.
   
-  First of all, there are no custom variables in assembly, and the variables that can be used are limited registers. For example, $t0 to $t9. There are also some special-purpose registers. The syntax is very simple, that is, the variable is followed by the instruction. The number of instructions is also very small, mainly for instructions such as loading values, displacements, additions, and jumps.
+  First of all, there are no custom variables in assembly, and the variables that can be used are limited registers. For example, $t0 to $t9. There are also some special-purpose registers. From [MIPS Reference Sheet](https://github.com/roboterz/CISC3160/blob/main/Lab4/MIPSReference.pdf), we see that the syntax is very simple, that is, the variable is followed by the instruction. The number of instructions is also very small, mainly for instructions such as loading values, displacements, additions, and jumps.
   
   Only understand these, there is no way to write assembler, even a simple "Hello world". Because assembly essentially manipulates how the machine works, not like a usual high-level language, you don’t need to care about how it works, just write the algorithm. The computer is essentially a binary adder. To write an assembly, you need to understand how the machine works.
   
