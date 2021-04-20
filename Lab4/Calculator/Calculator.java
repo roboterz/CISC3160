@@ -71,7 +71,7 @@ public class Calculator{
    
       // interface ---------------------------------------
       
-      // window
+      // Calculator frame
       frame.setSize(330, 400);
       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       frame.setResizable(false);  
@@ -152,10 +152,10 @@ public class Calculator{
    
    
    // create button
-   private void createButton(int index, String Name, int left, int top, int weight, int high ){
+   private void createButton(int index, String Name, int left, int top, int wide, int height ){
       
       button[index] = new JButton(Name);
-      button[index].setBounds(left, top, weight, high);
+      button[index].setBounds(left, top, wide, height);
       panel.add(button[index]);
       button[index].addActionListener(new ActionListener() {
          @Override
