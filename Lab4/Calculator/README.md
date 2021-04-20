@@ -56,8 +56,11 @@ Add other components on the form：
 CreateButton is my custom function, on [line 155](https://github.com/roboterz/CISC3160/blob/main/Lab4/Calculator/Calculator.java)
 ```
   // create button
-   private void createButton(int index, String Name, int left, int top, int weight, int high ){
-
+  private void createButton(int index, String Name, int left, int top, int weight, int high ){
+      button[index] = new JButton(Name);
+      button[index].setBounds(left, top, wide, height);
+      panel.add(button[index]);
+      button[index].addActionListener(new ActionListener() {
 ```
 Create an index based on the characters on the calculator button.
 ```
