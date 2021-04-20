@@ -51,4 +51,4 @@ Add other components on the form：
       createButton(6, "6", 130, 220, 55, 35);
       createButton(13, "*", 190, 220, 55, 35);
       ...
-···
+```
