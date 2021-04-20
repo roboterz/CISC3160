@@ -51,7 +51,8 @@ Even simple multiplication and division cannot be done in one sentence. For exam
 	#Calculate the first decimal place
 	li $t0, 100		# t0 as temp
 	mult $t3, $t0		# remainder * 10
-	mflo, $t0		#
+	mflo, $t0		# save the result on t0
 	div $t0, $t1		# first decimal place = remainder * 10 / divisor
-	mflo $t3		# first decimal place
+	mflo $t3		# save the first decimal place on t3
 ```
+As you can see from the code, I used the remainder to be multiplied by 10 and then divided by the divisor. The quotient obtained is the value of the first decimal place. This is no longer a question of grammar, it is a mathematical principle, how to find the decimal of the quotient. Because the assembly is very simple, we need to learn the principles of complex calculations and learn how to use simple calculations to solve complex problems. This is the focus of assembly. To learn to use assembly, you must learn machine principles, not assembly syntax.
