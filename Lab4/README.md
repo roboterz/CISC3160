@@ -66,3 +66,7 @@ Later, the central processing unit had a floating-point unit. As the machine is 
 	mul.s $f1, $f1, $f1	# f1 = height * height
 	div.s $f2,$f0, $f1	# f2 = (weight*703) / {height * height}
 ```
+
+Regarding the different methods of division, we understand that assembly instructions depend on the machine, and different machines have to use different instructions to accomplish the same task.
+
+There are also system resource calls, which call different resources according to the value of special registers. As shown in the system calls list in the [MIPS Instruction Set](https://github.com/roboterz/CISC3160/blob/main/Lab4/MIPS_Instruction_Set.pdf), the value of the $v0 register is used as the basis for system calls. When $v0 is 1, call Print integer number service, 2 is Print floating-point number, 4 is print null-terminated character string, 5 is read integer number from user, and 10 is stop program from running.
