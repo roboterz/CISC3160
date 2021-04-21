@@ -18,7 +18,7 @@ main{
 	}
 }
 ```
-[MIPS](https://github.com/roboterz/CISC3160/blob/main/Lab4/Lab4_1.asm):
+[MIPS](https://github.com/roboterz/CISC3160/blob/main/Lab4/loop.asm):
 ```
 data
 	X: .word 1
@@ -59,7 +59,7 @@ Even simple multiplication and division cannot be done in one sentence. For exam
 ```
 As you can see from the code, I used the remainder to be multiplied by 10 and then divided by the divisor. The quotient obtained is the value of the first decimal place. This is no longer a question of grammar, it is a mathematical principle, how to find the decimal of the quotient. Because the assembly is very simple, we need to learn the principles of complex calculations and learn how to use simple calculations to solve complex problems. This is the focus of assembly. To learn to use assembly, you must learn machine principles, not assembly syntax.
 
-Later, the central processing unit had a floating-point unit. As the machine is different, we need to modify the corresponding assembly statement. Example of division using floating point operations: [Calculate BMI code line32-36](https://github.com/roboterz/CISC3160/blob/main/Lab4/Lab4_4_float.asm)
+Later, the central processing unit had a floating-point unit. As the machine is different, we need to modify the corresponding assembly statement. Example of division using floating point operations: [Calculate BMI code line32-36](https://github.com/roboterz/CISC3160/blob/main/Lab4/BMI_float.asm)
 
 ```
 # Calculate BMI
@@ -81,7 +81,7 @@ There are also system resource calls, which call different resources according t
 * 10 is stop program from running.
 
 
-In my [assembly code for calculating the BMI](https://github.com/roboterz/CISC3160/blob/main/Lab4/Lab4_4_float.asm), All system calls are implemented by changing the value of $v0.
+In my [assembly code for calculating the BMI](https://github.com/roboterz/CISC3160/blob/main/Lab4/BMI_float.asm), All system calls are implemented by changing the value of $v0.
 
 ```
 # print out the message to get the weight
