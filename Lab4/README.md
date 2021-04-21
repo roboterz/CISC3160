@@ -18,7 +18,7 @@ main{
 	}
 }
 ```
-[MIPS](https://github.com/roboterz/CISC3160/blob/main/Lab4/loop.asm):
+MIPS:
 ```
 data
 	X: .word 1
