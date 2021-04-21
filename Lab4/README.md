@@ -38,7 +38,7 @@ Exit:
 It can be seen that assembly language has no structured syntax, loops and conditional branches. Loops and conditional branches can only be realized by jumping to the sticky note. The structured syntax of the C language is very different.
 
 
-Even simple multiplication and division cannot be done in one sentence. For example, for the multiplication and division in this [assembly code for calculating the BMI](https://github.com/roboterz/CISC3160/blob/main/Lab4/Lab4_4%20_Int.asm), the result of the division calculation is stored in the low register, and the remainder is stored in the high register. Because the computer central processing unit manufactured at the beginning did not have a floating-point operation unit, all operations are integers. But I ask the result to keep one decimal place, what should I do?
+Even simple multiplication and division cannot be done in one sentence. For example, for the multiplication and division in this [assembly code for calculating the BMI](https://github.com/roboterz/CISC3160/blob/main/Lab4/BMI_Int.asm), the result of the division calculation is stored in the low register, and the remainder is stored in the high register. Because the computer central processing unit manufactured at the beginning did not have a floating-point operation unit, all operations are integers. But I ask the result to keep one decimal place, what should I do?
 ```
 # Calculate BMI
 	li $t2, 703		# conversion factor
