@@ -1,6 +1,4 @@
-Jiongjun Liu
 
-Worked together with John Ngan
 
 # Lab 1
 
