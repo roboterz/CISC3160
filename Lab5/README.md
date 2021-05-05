@@ -1,4 +1,4 @@
-# Lab 5 reflection
+# Lab 5 Reflection
 
 
 By improving the old code, I found that some coding habits are very important.
