@@ -21,9 +21,7 @@ Goal: Identify the input mathematical formula, calculate and get the result.
 
 
 # Reflection
-Jiongjun Liu
 
-will work with John Ngan
 
 The language I designed is as described above. It is a language that can understand mathematical formulas and calculate the results.
 
