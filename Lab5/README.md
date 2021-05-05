@@ -9,6 +9,6 @@ The second is the name of the variable. Sometimes the name of the variable is po
 
 The third is the cleanliness and indentation of the code. Good typography can facilitate code reading. So I organized the code into blocks to facilitate the understanding of their logical relationship.
 
-Finally, optimize the code. Streamline some heavy and inefficient code. Reorganize the code in a more logical way.
+Finally, optimize the code. Streamline some heavy and inefficient code. Or rewrite the logically complex and difficult code in a clearer way to make the code easier to understand. Except for code that requires efficiency.
 
-After re-reading my old code, I can better understand the incomprehensible parts of the code. Therefore modify and add more easily understandable comments to make it more conducive to code reading. This saves time and improves efficiency for the next reading.
+After re-reading my old code, I can better understand the incomprehensible parts of the code. Therefore modify and add more easily understandable comments to make it more conducive to code reading. This saves time and improves efficiency for the next reading. Because it takes a certain amount of time to re-understand the old code, the shorter the time, the better. And correct annotations and good coding habits can reduce this time cost.
